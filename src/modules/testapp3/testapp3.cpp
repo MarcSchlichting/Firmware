@@ -108,6 +108,8 @@
 #include <uORB/topics/vehicle_trajectory_waypoint.h>
 
 #include <uORB/topics/sensor_combined.h>
+#include <help1.h>
+
 
 class Mavlink;
 
@@ -150,7 +152,6 @@ uORB::PublicationQueued<vehicle_command_s>	_cmd_pub{ORB_ID(vehicle_command)};
 
 
 
-#include <helper1.h>
 
 
 
